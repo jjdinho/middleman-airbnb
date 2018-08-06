@@ -11,8 +11,10 @@
 }
 
 /* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
+.navbar-wagon-brand {
+  img {
+    height: 50px;
+  }
 }
 
 /* User Avatar */
@@ -59,9 +61,11 @@
   line-height: 22px !important;
   padding: 10px 20px;
 }
-.navbar-wagon-dropdown-menu li > a:hover {
-  background: transparent !important;
-  color: black !important;
+.navbar-wagon-dropdown-menu {
+  li > a:hover {
+    background: transparent !important;
+    color: black !important;
+  }
 }
 .navbar-wagon-dropdown-menu:before {
   content: ' ';
